@@ -1,0 +1,107 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         /* взяли шрифты с google fonts и прописали правило font-family: 'Inter', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+.info-box{
+    background-color: #F8F8FD;
+    border-radius: 24px;
+    margin-left: 10px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    /* это правила для центровочного контейнера */
+}
+
+.header-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex; 
+    margin: 0 auto;
+}
+
+.header-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+    width:264px;
+    border-radius: 50%;
+}
+
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;  
+}
+.info-box{
+    margin-top: 50px;
+    display: flex; 
+}
+
+.info-list > li{
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: #9999A3;
+}
+.right > li{
+   color: black;
+}
+
+.main-wrapper {
+    padding-top: 30px;
+    padding-left: 70px;
+}
+.main-box{
+padding-left: 250px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 16px;
+}
+
+.main-content{
+    max-width: 70%;
+}
+.main-list :nth-child(1n){
+    color: #BCBCC2;
+
+}
+.main-text{
+    background-color: #A9A9FD;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+.more{
+    background-color: #F1A9FD;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.skills, .language, .AboutMe{
+margin-left: 250px;
+margin-bottom: 30px;
+}
+
+span{
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #F5F5FA;
+}
